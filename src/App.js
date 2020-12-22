@@ -1,23 +1,20 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
+//import { FunctionComponent} from './components/FunctionComponent';
+//import ClassComponent from './components/ClassComponent';
+import PropsExampleClass from './components/PropsExampleClass'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Welcome World!!
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <FunctionComponent />
+      <ClassComponent/> */}
+      <PropsExampleClass name='Sandeep'>
+        <p>Cool Dude</p>
+      </PropsExampleClass>
+      <PropsExampleClass name='Vidyanath'/>
+      <PropsExampleClass name='Prasad'/>
+      <PropsExampleClass name='Anitha'/>
     </div>
   );
 }
