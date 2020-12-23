@@ -2,19 +2,12 @@
 import './App.css';
 //import { FunctionComponent} from './components/FunctionComponent';
 //import ClassComponent from './components/ClassComponent';
-import PropsExampleClass from './components/PropsExampleClass'
+import SetStateExample from './components/SetStateExample'
 
 function App() {
   return (
     <div className="App">
-      {/* <FunctionComponent />
-      <ClassComponent/> */}
-      <PropsExampleClass name='Sandeep'>
-        <p>Cool Dude</p>
-      </PropsExampleClass>
-      <PropsExampleClass name='Vidyanath'/>
-      <PropsExampleClass name='Prasad'/>
-      <PropsExampleClass name='Anitha'/>
+      <SetStateExample name='Sandeep'/>
     </div>
   );
 }
